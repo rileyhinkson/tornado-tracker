@@ -1,0 +1,458 @@
+{
+  "1950": {
+    "count": 201,
+    "fatalities": 70,
+    "injuries": 659,
+    "strongest": "F4"
+  },
+  "1951": {
+    "count": 260,
+    "fatalities": 34,
+    "injuries": 524,
+    "strongest": "F4"
+  },
+  "1952": {
+    "count": 240,
+    "fatalities": 230,
+    "injuries": 1915,
+    "strongest": "F4"
+  },
+  "1953": {
+    "count": 421,
+    "fatalities": 523,
+    "injuries": 5131,
+    "strongest": "F5"
+  },
+  "1954": {
+    "count": 550,
+    "fatalities": 36,
+    "injuries": 715,
+    "strongest": "F4"
+  },
+  "1955": {
+    "count": 591,
+    "fatalities": 129,
+    "injuries": 926,
+    "strongest": "F5"
+  },
+  "1956": {
+    "count": 504,
+    "fatalities": 81,
+    "injuries": 1308,
+    "strongest": "F5"
+  },
+  "1957": {
+    "count": 858,
+    "fatalities": 192,
+    "injuries": 1976,
+    "strongest": "F5"
+  },
+  "1958": {
+    "count": 564,
+    "fatalities": 67,
+    "injuries": 535,
+    "strongest": "F5"
+  },
+  "1959": {
+    "count": 604,
+    "fatalities": 58,
+    "injuries": 734,
+    "strongest": "F4"
+  },
+  "1960": {
+    "count": 616,
+    "fatalities": 46,
+    "injuries": 737,
+    "strongest": "F5"
+  },
+  "1961": {
+    "count": 697,
+    "fatalities": 52,
+    "injuries": 1087,
+    "strongest": "F4"
+  },
+  "1962": {
+    "count": 657,
+    "fatalities": 30,
+    "injuries": 551,
+    "strongest": "F4"
+  },
+  "1963": {
+    "count": 463,
+    "fatalities": 31,
+    "injuries": 538,
+    "strongest": "F4"
+  },
+  "1964": {
+    "count": 704,
+    "fatalities": 73,
+    "injuries": 1143,
+    "strongest": "F5"
+  },
+  "1965": {
+    "count": 897,
+    "fatalities": 301,
+    "injuries": 5197,
+    "strongest": "F5"
+  },
+  "1966": {
+    "count": 585,
+    "fatalities": 98,
+    "injuries": 2030,
+    "strongest": "F5"
+  },
+  "1967": {
+    "count": 927,
+    "fatalities": 114,
+    "injuries": 2149,
+    "strongest": "F4"
+  },
+  "1968": {
+    "count": 657,
+    "fatalities": 131,
+    "injuries": 2522,
+    "strongest": "F5"
+  },
+  "1969": {
+    "count": 608,
+    "fatalities": 66,
+    "injuries": 1311,
+    "strongest": "F4"
+  },
+  "1970": {
+    "count": 653,
+    "fatalities": 73,
+    "injuries": 1355,
+    "strongest": "F5"
+  },
+  "1971": {
+    "count": 889,
+    "fatalities": 159,
+    "injuries": 2718,
+    "strongest": "F5"
+  },
+  "1972": {
+    "count": 741,
+    "fatalities": 27,
+    "injuries": 976,
+    "strongest": "F4"
+  },
+  "1973": {
+    "count": 1102,
+    "fatalities": 89,
+    "injuries": 2396,
+    "strongest": "F5"
+  },
+  "1974": {
+    "count": 945,
+    "fatalities": 366,
+    "injuries": 6824,
+    "strongest": "F5"
+  },
+  "1975": {
+    "count": 919,
+    "fatalities": 60,
+    "injuries": 1457,
+    "strongest": "F4"
+  },
+  "1976": {
+    "count": 834,
+    "fatalities": 44,
+    "injuries": 1195,
+    "strongest": "F5"
+  },
+  "1977": {
+    "count": 852,
+    "fatalities": 43,
+    "injuries": 771,
+    "strongest": "F5"
+  },
+  "1978": {
+    "count": 789,
+    "fatalities": 53,
+    "injuries": 919,
+    "strongest": "F4"
+  },
+  "1979": {
+    "count": 855,
+    "fatalities": 84,
+    "injuries": 3014,
+    "strongest": "F4"
+  },
+  "1980": {
+    "count": 866,
+    "fatalities": 28,
+    "injuries": 1157,
+    "strongest": "F4"
+  },
+  "1981": {
+    "count": 782,
+    "fatalities": 24,
+    "injuries": 798,
+    "strongest": "F4"
+  },
+  "1982": {
+    "count": 1047,
+    "fatalities": 64,
+    "injuries": 1276,
+    "strongest": "F5"
+  },
+  "1983": {
+    "count": 930,
+    "fatalities": 34,
+    "injuries": 750,
+    "strongest": "F4"
+  },
+  "1984": {
+    "count": 907,
+    "fatalities": 122,
+    "injuries": 2499,
+    "strongest": "F5"
+  },
+  "1985": {
+    "count": 684,
+    "fatalities": 94,
+    "injuries": 1299,
+    "strongest": "F5"
+  },
+  "1986": {
+    "count": 765,
+    "fatalities": 15,
+    "injuries": 536,
+    "strongest": "F4"
+  },
+  "1987": {
+    "count": 656,
+    "fatalities": 59,
+    "injuries": 1018,
+    "strongest": "F4"
+  },
+  "1988": {
+    "count": 702,
+    "fatalities": 32,
+    "injuries": 688,
+    "strongest": "F4"
+  },
+  "1989": {
+    "count": 856,
+    "fatalities": 50,
+    "injuries": 1270,
+    "strongest": "F4"
+  },
+  "1990": {
+    "count": 1133,
+    "fatalities": 53,
+    "injuries": 1177,
+    "strongest": "F5"
+  },
+  "1991": {
+    "count": 1132,
+    "fatalities": 39,
+    "injuries": 864,
+    "strongest": "F5"
+  },
+  "1992": {
+    "count": 1297,
+    "fatalities": 39,
+    "injuries": 1323,
+    "strongest": "F5"
+  },
+  "1993": {
+    "count": 1172,
+    "fatalities": 33,
+    "injuries": 948,
+    "strongest": "F4"
+  },
+  "1994": {
+    "count": 1082,
+    "fatalities": 69,
+    "injuries": 1074,
+    "strongest": "F4"
+  },
+  "1995": {
+    "count": 1237,
+    "fatalities": 30,
+    "injuries": 935,
+    "strongest": "F4"
+  },
+  "1996": {
+    "count": 1173,
+    "fatalities": 26,
+    "injuries": 703,
+    "strongest": "F5"
+  },
+  "1997": {
+    "count": 1148,
+    "fatalities": 68,
+    "injuries": 1033,
+    "strongest": "F5"
+  },
+  "1998": {
+    "count": 1424,
+    "fatalities": 130,
+    "injuries": 1868,
+    "strongest": "F5"
+  },
+  "1999": {
+    "count": 1339,
+    "fatalities": 94,
+    "injuries": 1838,
+    "strongest": "F5"
+  },
+  "2000": {
+    "count": 1075,
+    "fatalities": 41,
+    "injuries": 829,
+    "strongest": "F4"
+  },
+  "2001": {
+    "count": 1215,
+    "fatalities": 40,
+    "injuries": 743,
+    "strongest": "F4"
+  },
+  "2002": {
+    "count": 934,
+    "fatalities": 55,
+    "injuries": 966,
+    "strongest": "F4"
+  },
+  "2003": {
+    "count": 1374,
+    "fatalities": 54,
+    "injuries": 1088,
+    "strongest": "F4"
+  },
+  "2004": {
+    "count": 1817,
+    "fatalities": 35,
+    "injuries": 395,
+    "strongest": "F4"
+  },
+  "2005": {
+    "count": 1263,
+    "fatalities": 38,
+    "injuries": 537,
+    "strongest": "F4"
+  },
+  "2006": {
+    "count": 1103,
+    "fatalities": 67,
+    "injuries": 988,
+    "strongest": "F4"
+  },
+  "2007": {
+    "count": 1132,
+    "fatalities": 81,
+    "injuries": 617,
+    "strongest": "EF5"
+  },
+  "2008": {
+    "count": 1704,
+    "fatalities": 128,
+    "injuries": 1714,
+    "strongest": "EF5"
+  },
+  "2009": {
+    "count": 1162,
+    "fatalities": 21,
+    "injuries": 397,
+    "strongest": "EF4"
+  },
+  "2010": {
+    "count": 1302,
+    "fatalities": 45,
+    "injuries": 699,
+    "strongest": "EF4"
+  },
+  "2011": {
+    "count": 1704,
+    "fatalities": 553,
+    "injuries": 5484,
+    "strongest": "EF5"
+  },
+  "2012": {
+    "count": 948,
+    "fatalities": 69,
+    "injuries": 822,
+    "strongest": "EF4"
+  },
+  "2013": {
+    "count": 916,
+    "fatalities": 55,
+    "injuries": 756,
+    "strongest": "EF5"
+  },
+  "2014": {
+    "count": 928,
+    "fatalities": 47,
+    "injuries": 641,
+    "strongest": "EF4"
+  },
+  "2015": {
+    "count": 1182,
+    "fatalities": 36,
+    "injuries": 926,
+    "strongest": "EF4"
+  },
+  "2016": {
+    "count": 976,
+    "fatalities": 18,
+    "injuries": 325,
+    "strongest": "EF4"
+  },
+  "2017": {
+    "count": 1442,
+    "fatalities": 35,
+    "injuries": 522,
+    "strongest": "EF4"
+  },
+  "2018": {
+    "count": 1138,
+    "fatalities": 10,
+    "injuries": 200,
+    "strongest": "EF3"
+  },
+  "2019": {
+    "count": 1534,
+    "fatalities": 42,
+    "injuries": 537,
+    "strongest": "EF4"
+  },
+  "2020": {
+    "count": 1090,
+    "fatalities": 76,
+    "injuries": 733,
+    "strongest": "EF4"
+  },
+  "2021": {
+    "count": 1328,
+    "fatalities": 104,
+    "injuries": 878,
+    "strongest": "EF4"
+  },
+  "2022": {
+    "count": 1167,
+    "fatalities": 23,
+    "injuries": 314,
+    "strongest": "EF4"
+  },
+  "2023": {
+    "count": 1321,
+    "fatalities": 86,
+    "injuries": 918,
+    "strongest": "EF4"
+  },
+  "2024": {
+    "count": 1805,
+    "fatalities": 52,
+    "injuries": 655,
+    "strongest": "EF4"
+  },
+  "2025": {
+    "count": 1383,
+    "fatalities": 67,
+    "injuries": 260,
+    "strongest": "EF5"
+  }
+}
