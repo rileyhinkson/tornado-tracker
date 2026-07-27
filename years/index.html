@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tornado Tracker — year</title>
+<meta name="description" content="Tornado records for a single year from the NOAA Storm Prediction Center severe weather database.">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="../index.html">
+      <span class="mark">🌪</span>
+      <span class="name">Tornado Tracker</span>
+      <span class="tagline">NOAA SPC database, 1950–2025</span>
+    </a>
+    <nav class="site-nav">
+      <a href="https://github.com/rileyhinkson/tornado-tracker" target="_blank" rel="noopener">GitHub</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle phosphor color theme">PHOSPHOR: GREEN</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <div class="year-nav">
+      <a href="../index.html">ALL YEARS</a>
+      <a id="prev-year" href="#"></a>
+      <a id="next-year" href="#"></a>
+      <div class="year-switch">
+        <label for="year-select">jump to:</label>
+        <select id="year-select" aria-label="Jump to year"></select>
+      </div>
+    </div>
+    <h1 id="year-title" class="cursor">Loading</h1>
+  </section>
+
+  <div class="stat-grid" id="stat-grid"></div>
+
+  <section class="panel" id="year-body">
+    <h2>Tornado records</h2>
+    <p class="subhead">Click a column header to sort. Filter by state or magnitude below.</p>
+
+    <div class="filter-row">
+      <select id="state-filter" aria-label="Filter by state">
+        <option value="">All states</option>
+      </select>
+      <select id="magnitude-filter" aria-label="Filter by magnitude">
+        <option value="">All magnitudes</option>
+      </select>
+      <span class="result-count" id="result-count"></span>
+    </div>
+
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th data-key="date">Date</th>
+            <th data-key="stateName">State</th>
+            <th data-key="magnitude">Magnitude</th>
+            <th data-key="fatalities">Fatalities</th>
+            <th data-key="injuries">Injuries</th>
+            <th data-key="lengthMiles">Length</th>
+            <th data-key="widthYards">Width</th>
+            <th data-key="propertyLoss">Property loss</th>
+          </tr>
+        </thead>
+        <tbody id="records-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    Data source: <a href="https://www.spc.noaa.gov/wcm/#data" target="_blank" rel="noopener">NOAA Storm Prediction Center Severe Weather Database</a>.
+    Built with static HTML/JS, hosted on GitHub Pages.
+  </div>
+</footer>
+
+<script src="../js/common.js"></script>
+<script src="../js/year.js"></script>
+</body>
+</html>

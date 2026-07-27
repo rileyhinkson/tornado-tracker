@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>US Tornado Tracker</title>
+<meta name="description" content="Every tornado recorded in the NOAA Storm Prediction Center severe weather database, 1950–2025.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="mark">🌪</span>
+      <span class="name">Tornado Tracker</span>
+      <span class="tagline">NOAA SPC database, 1950–2025</span>
+    </a>
+    <nav class="site-nav">
+      <a href="https://github.com/rileyhinkson/tornado-tracker" target="_blank" rel="noopener">GitHub</a>
+      <button id="theme-toggle" type="button" aria-label="Toggle phosphor color theme">PHOSPHOR: GREEN</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero clearfix">
+    <pre class="ascii-art" aria-hidden="true">    .::~~~~~~~~~~~~~~~~~~~~::.
+ .::~~~~~~~~~~~~~~~~~~~~~~~~::.
+:::~~~~~~~~~~~~~~~~~~~~~~~~~~:::
+ \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\
+   \\\\\\\\\\\\\\\\\\\\\\\\\\
+    \\\\\\\\\\\\\\\\\\\\\\\\
+     \\\\\\\\\\\\\\\\\\\\\\
+      \\\\\\\\\\\\\\\\\\\\
+       \\\\\\\\\\\\\\\\\\
+        \\\\\\\\\\\\\\\\
+         \\\\\\\\\\\\\\
+          \\\\\\\\\\\\
+           \\\\\\\\\\
+            \\\\\\\\
+             \\\\\\
+              \\\\
+               \\
+               V</pre>
+    <pre class="ascii-banner" role="img" aria-label="Tornado Tracker">###### #####   ####   ##### ##  ## ###### #####   ####
+  ##   ##  ## ##  ## ##     ## ##  ##     ##  ## ##  ##
+  ##   #####  ###### ##     ####   #####  #####  ##  ##
+  ##   ## ##  ##  ## ##     ## ##  ##     ## ##  ##  ##
+  ##   ##  ## ##  ##  ##### ##  ## ###### ##  ##  ####  </pre>
+    <p class="prompt-line"><span class="prompt">guest@spc-archive</span>:~$ cat welcome.txt</p>
+    <p class="lede">
+      <strong>73,000+ tornado records, 1950–present.</strong> Pulled straight from the
+      NOAA Storm Prediction Center severe weather database. Counts, fatalities,
+      injuries, and the strongest storm on record for every year — drill into
+      any year below for the full track log.
+    </p>
+  </section>
+
+  <div class="stat-grid" id="stat-grid"></div>
+
+  <section class="panel">
+    <h2>Tornadoes per year</h2>
+    <p class="subhead">Hover or tap a bar for the exact count. Click a bar to open that year.</p>
+    <div class="term-box chart-card" id="chart-card">
+      <span class="tb-tr">+</span><span class="tb-br">+</span>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Browse by year</h2>
+    <p class="subhead">Click a year for the full record list — date, location, magnitude, and impact.</p>
+
+    <div class="filter-row">
+      <input type="text" id="year-filter" placeholder="grep year..." aria-label="Filter by year">
+      <span class="result-count" id="result-count"></span>
+    </div>
+
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th data-key="year">Year</th>
+            <th data-key="count">Tornadoes</th>
+            <th data-key="fatalities">Fatalities</th>
+            <th data-key="injuries">Injuries</th>
+            <th data-key="strongest">Strongest</th>
+          </tr>
+        </thead>
+        <tbody id="years-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    Data source: <a href="https://www.spc.noaa.gov/wcm/#data" target="_blank" rel="noopener">NOAA Storm Prediction Center Severe Weather Database</a>.
+    Built with static HTML/JS, hosted on GitHub Pages.
+  </div>
+</footer>
+
+<script src="js/common.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

@@ -57,12 +57,14 @@ def format_loss(loss, year):
     if year < 1996:
         return LOSS_CATEGORY.get(loss.strip(), "Unknown")
     try:
-        millions = float(loss)
+        raw = float(loss)
     except ValueError:
         return "Unknown"
-    if millions <= 0:
+    if raw <= 0:
         return "Unknown"
-    dollars = millions * 1_000_000
+    # NOAA SPC recorded this field in millions of dollars through 2006,
+    # then switched to raw dollars starting 2007.
+    dollars = raw * 1_000_000 if year <= 2006 else raw
     if dollars >= 1_000_000_000:
         return f"${dollars / 1_000_000_000:.2f}B"
     if dollars >= 1_000_000:
